@@ -21,8 +21,7 @@ test.fail('expected to fail', async ({ page }) => {
 });
 
 // Slow test (3x timeout)
-test('slow test', async ({ page }) => {
-    test.slow();
+test.slow('slow test', async ({ page }) => {
     // Has extended timeout
 });
 
